@@ -11,7 +11,6 @@ public class ReaderRunner {
             String collect = fileReader.lines()
                     .collect(Collectors.joining("\n"));
             System.out.println(collect);
-
         }
     }
 }
